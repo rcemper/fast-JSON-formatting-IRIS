@@ -34,7 +34,7 @@ do formatter.Format(js1)
   ]  
 }  
 ```  
-Not a big thing. 
+Not a big thing.   
 You do it once, you do it twice, and after the 5th time your fingers get tired.
 
 So this is a shorthand to save time and reduce mistyping.
