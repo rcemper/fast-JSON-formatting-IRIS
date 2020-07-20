@@ -4,7 +4,7 @@
  It is also NOT serviced by InterSystems Support !   
 ~~~ 
 # fast JSON formatting (IRIS)
-It's also aan example for a customized command extension (ZZJSON) in IRIS 
+It's also an example for a customized command extension (ZZJSON) in IRIS 
   
 IRIS has a nice %JSON.Formatter class.
 But for debugging it is not really handy.  
