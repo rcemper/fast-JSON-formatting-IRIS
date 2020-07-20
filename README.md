@@ -48,7 +48,5 @@ set st=##class(%Stream.GlobalCharacter).%New()
 ZZJSON js1:st      ; write result to Stream
 ```  
 ```  
-ZZJSON js1:"OTTO"  ; writes it to local variable OTTO
+ZZJSON js1:"BOBBY"  ; writes it to local variable BOBBY
 ```  
-
-
