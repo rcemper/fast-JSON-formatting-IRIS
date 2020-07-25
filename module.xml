@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="fast-json-format.ZPM">
+  <Document name="fast-json-format-iris.ZPM">
     <Module>
-      <Name>fast-json-format</Name>
-      <Version>1.0.1</Version>
+      <Name>fast-json-format-iris</Name>
+      <Version>1.0.3</Version>
       <Description>produce pretty JSON output for IRIS</Description>
       <Keywords>JSON, COS, SYS</Keywords>
       <Packaging>module</Packaging>
