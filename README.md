@@ -50,3 +50,5 @@ ZZJSON js1:st      ; write result to Stream
 ```  
 ZZJSON js1:"BOBBY"  ; writes it to local variable BOBBY
 ```  
+
+[Article in DC](https://community.intersystems.com/post/fast-json-formatting-iris)
