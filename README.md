@@ -1,8 +1,3 @@
- ~~~
- This is a coding example working on IRIS 2020.2 
- It will not be kept in sync with new versions      
- It is also NOT serviced by InterSystems Support !   
-~~~ 
 # fast JSON formatting (IRIS)
 It's also an example for a customized command extension (ZZJSON) in IRIS 
   
