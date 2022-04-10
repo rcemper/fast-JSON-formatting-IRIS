@@ -51,4 +51,5 @@ ZZJSON js1:"BOBBY"  ; writes it to local variable BOBBY
 [Demo Server SMP](https://fast-json-format.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
 [Demo Server WebTerminal](https://fast-json-format.demo.community.intersystems.com/terminal/)    
         
-**Code Quality** in SCREENSHOTS  
+**Code Quality**   
+<img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/837/screenshots/adtowjf3egpkuajvrutu1xg45ke.jpg">
