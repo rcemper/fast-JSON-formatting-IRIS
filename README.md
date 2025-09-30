@@ -1,19 +1,19 @@
-<p align="right"><img src="https://github.com/isc-at/CPIPE/blob/master/archived.jpg"/></p>
-
 ## Fast JSON formatting (IRIS)
 It's also an example for a customized command extension (ZZJSON) in IRIS 
   
 IRIS has a nice %JSON.Formatter class.   
-But for debugging it is not really handy.  
+But for debugging it is not really handy. 
+prepare demo data
+
 see:
 ```
-ZWRITE js1  
-js1="{""Name"":""Cunningham,John C."",""SSN"":""294-11-9150"",""DOB"":""1933-01-08"",""Home"":{""Street"":""4249 Ash Street"",""City"":""Tampa"",""State"":""MD"",""Zip"":""30176""},""FavoriteColors"":\[""White"",""Red"",""Green""]}"   
+SET js1="{""Name"":""Cunningham,John C."",""SSN"":""294-11-9150"",""DOB"":""1933-01-08"",""Home"":{""Street"":""4249 Ash Street"",""City"":""Tampa"",""State"":""MD"",""Zip"":""30176""},""FavoriteColors"":[""White"",""Red"",""Green""]}"
+SET jsn={}.%FromJSON(js1)
 ```  
 so you proceed  for the most simple case  
 ```    
 set formatter=##class(%JSON.Formatter).%New()   
-do formatter.Format(js1)  
+do formatter.Format(jsn)  
 {   
   "Name":"Cunningham,John C.",  
   "SSN":"294-11-9150",  
